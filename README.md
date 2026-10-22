@@ -1,4 +1,4 @@
-```markdown
+
 # [THUNT-2026] Proactive Threat Hunting, Attack Surface Reduction & Detection Engineering
 
 ![Focus](https://img.shields.io/badge/Focus-Threat%20Hunt%20%7C%20Detection%20Engineering-orange)
@@ -102,7 +102,7 @@ sudo ufw enable
 
 ---
 
-```markdown
+
 ## 4. DevSecOps: Automated GDPR Compliance & AI-Assisted Engineering
 
 To ensure this report complied with GDPR prior to external distribution, I developed a Python tool (`compliance.py`) leveraging the `python-docx` library to dynamically sanitize sensitive IP addresses.
@@ -139,9 +139,5 @@ def redact_paragraph(paragraph):
         if COMBINED_IP_REGEX.search(run.text):
             run.text = redact_text(run.text)
             matched_in_runs = True
-
-```
-
-```
 
 ```
